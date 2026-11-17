@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
-    ScrollModifiers(modifier)
+    MultiTouchDemo(modifier)
 }
 
 @Preview(showBackground = true)
