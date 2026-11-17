@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
-    ClickDemo(modifier)
+    TapPressDemo(modifier)
 }
 
 @Preview(showBackground = true)
